@@ -1,0 +1,105 @@
+<!--Kate Blake-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script defer src="./js/gallery.js"></script>
+    <title>Gallery- Wola Nani</title>
+    <link rel="icon" href="./images/WolananiLogo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <script>
+      0;
+    </script>
+    <header>
+      <img class="logo" src="./images/WolananiLogo.png" alt="Thrift Fest Logo" />
+      <h1 class="logo-heading" style="color: var(--accentMain)">Wola Nani</h1>
+      <input type="checkbox" class="nav-toggle" name="nav-toggle" id="nav-toggle" />
+      <!--This is for the responsive menu-->
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./gallery.html" class="is-active">Gallery</a></li>
+		    <li><a href="./Programmes.html">Programmes</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <!--This is for the responsive menu-->
+        <span></span>
+      </label>
+    </header>
+
+    <div class="gallery-container">
+      <h1>Gallery</h1>
+      <div class="image-gallery">
+        <img
+          src="./images/WolaNani Counsellors.jpg"
+          data-imgsrc="./images/WolaNani Counsellors.jpg"
+          alt="A crowd of people browsing through clothing racks"
+          class="lightbox-enabled"
+          data-desc="Counsellors on a trip."
+        />
+        <img src="./images/wola nani director.jpg" data-imgsrc="./images/wola nani director.jpg"  class="lightbox-enabled" data-desc="Wola Nani Director" />
+        <img
+          src="./images/craft1.jpg"
+          data-imgsrc="./images/craft1.jpg"
+          alt="Stall owner posing in front of their clothing stall"
+          class="lightbox-enabled"
+          data-desc="Craft made by the ladies"
+        />
+        <img
+          src="./images/craft2.jpg"
+          data-imgsrc="./images/bg1.jpg"
+          alt="Blue Bird Garage and Market interior with many stalls setup"
+          class="lightbox-enabled"
+          data-desc="Craft made by the craft project."
+        />
+        <img
+          src="./images/craft3.jpg"
+          data-imgsrc="./images/craft3.jpg"
+          alt="Interior of marquee with many stalls setup"
+          class="lightbox-enabled"
+          data-desc="Our events are held both inside and outside!"
+        />
+        <img
+          src="./images/craft ladies.jpg"
+          data-imgsrc="./images/craft ladies.jpg"
+          alt="Hamburger and french fries"
+          class="lightbox-enabled"
+          data-desc="One of the ladies of the craft project."
+        />
+      </div>
+     
+
+      <div class="lightbox-container">
+        <div class="lightbox-image-wrapper">
+          <button class="lightbox-btn" id="left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" /></svg>
+          </button>
+          <img src="./images/gallery1.jpg" alt="Image" class="lightbox-image" />
+          <p class="description"></p>
+          <button class="lightbox-btn" id="right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" /></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      
+      <div class="socials">
+        <a href="https://www.facebook.com/wolananiembrace/" target="_blank" rel="noopener" rel="noreferrer"
+          ><img src="./images/fb250lightgreen.png" height="40px" alt="Facebook Page Link"
+        /></a>
+        <a href="https://www.instagram.com/thriftfest/" target="_blank" rel="noopener" rel="noreferrer"><img src="./images/instalightgreen.png" height="40px" alt="Instagram Page Link" /></a>
+      </div>
+      <div class="back-to-top"><a href="#top">Back to Top</a></div>
+    </footer>
+  </body>
+</html>
